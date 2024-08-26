@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.6.0",
+    "@unlock-protocol/unlock-js": "^0.46.1",
     "lamejs": "^1.2.1",
     "next": "14.2.5",
     "react": "^18",
