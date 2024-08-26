@@ -5,7 +5,7 @@ import React, { useState, useRef } from "react";
 const VoiceRecorder: React.FC = () => {
   const [estaGrabando, setEstaGrabando] = useState<boolean>(false);
   const [urlAudio, setUrlAudio] = useState<string | null>(null);
-  const [nombreArchivo, setNombreArchivo] = useState<string>("Reunión: ");
+  const [nombreArchivo, setNombreArchivo] = useState<string>("Clase: ");
   const [email, setEmail] = useState<string>("");  // New state for email
   const audioContextRef = useRef<AudioContext | null>(null);
   const mediaRecorderRef = useRef<MediaRecorder | null>(null);
@@ -104,7 +104,7 @@ const VoiceRecorder: React.FC = () => {
     formData.append('email', email); // Include email in the form data
 
     try {
-      const response = await fetch('https://hook.us2.make.com/n8bndbb9ipfw4yz1p9x6i9u5lngsq5ce', {
+      const response = await fetch('https://hook.us2.make.com/1xlhm6kpa0kwguf4zwr3p3xn076qrdhk', {
         method: 'POST',
         body: formData,
       });
