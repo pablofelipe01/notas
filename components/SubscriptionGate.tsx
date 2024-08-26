@@ -14,8 +14,10 @@ const SubscriptionGate: React.FC = () => {
   
   useEffect(() => {
     const checkMembership = async () => {
+           // @ts-ignore
       const web3Service = new Web3Service();
       try {
+           // @ts-ignore
         const key = await web3Service.getKeyByLockForOwner({
           lockAddress,
           owner: userAddress,
