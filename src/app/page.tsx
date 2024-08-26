@@ -8,9 +8,10 @@ export default function Home() {
   useEffect(() => {
     // Assuming Unlock Protocol will call a function or redirect upon payment completion
     // You can listen for a message or a URL parameter change indicating payment success
-
+      // @ts-ignore
     const handlePaymentSuccess = (event) => {
       // Check if the event or URL indicates payment success
+
       if (event.data === "payment-success") {
         setIsPaid(true);
       }
