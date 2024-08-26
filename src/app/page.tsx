@@ -1,9 +1,10 @@
 "use client";
-import SubscriptionGate from "../../components/SubscriptionGate";
+import VoiceRecorder from "../../components/VoiceRecorder";
 
 export default function Home() {
   return (
     <div>
+    
       <div
         style={{
           padding: "20px",
@@ -12,7 +13,7 @@ export default function Home() {
           boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
         }}
       >
-        <SubscriptionGate />
+        <VoiceRecorder />
       </div>
     </div>
   );

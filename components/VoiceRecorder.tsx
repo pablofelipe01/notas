@@ -154,7 +154,7 @@ const VoiceRecorder: React.FC = () => {
   >
     <div className="p-4 max-w-md w-full bg-white bg-opacity-25 rounded-lg shadow-lg">
       <h1 style={{ fontSize: "2rem", marginBottom: "20px", textAlign: "center", color: "darkblue", fontWeight: "bold" }}>
-        🎙️ Meeting IA
+        🎙️ Notas IA
       </h1>
       <canvas ref={canvasRef} width={300} height={80} className="w-full mb-4" />
       <div className="mb-6 flex flex-col space-y-4 items-center">
